@@ -25,17 +25,20 @@ body {
 }
 
 .card {
+	position: relative;
 	height: 80vh;
 	width: 90%;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: $darkColor;
+	background-color: rgba(42, 38, 43);
 	color: $primaryColor;
 	border-radius: 15px;
 	padding: 25px;
+	z-index: 1;
 
+	
 	&__title {
 		font-size: 55px;
 		padding: 10px;
